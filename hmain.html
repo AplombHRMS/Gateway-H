@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head ><title>GMS</title>
-		<meta charset="UTF-8">
-		<link rel="shortcut icon" href="http://example.com/myicon.png">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-		<link rel="stylesheet" href="hmain.css">
-		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="footer.css">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-		<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-		 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-		 <script type="text/javascript" src="hmain.js"> </script>
-		<link rel="icon" 
-      type="image/png" 
-      href="images/test7.gif">
+<head ><title>GMS</title> 
+<meta charset="UTF-8">
+        <link rel="shortcut icon" href="http://example.com/myicon.png">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="hmain.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+        <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+         <script type="text/javascript" src="hmain.js"> </script>
+        <link rel="icon" type="image/png" href="images/test7.gif">
 
 
 </head>
@@ -23,7 +21,7 @@
 
 <body>
 <div id="mySidenav" class="sidenav" >
-	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+	  <a href="javascript:void(0)" id="closebutton" class="closebtn">×</a>
 	  <a href="#">Navtab1</a>
 	  <a href="#">Navtab2</a>
 	  <a href="#">Navtab3</a>
@@ -57,11 +55,10 @@
 			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 			        <span class="caret"></span>
 			      </button>
-			      <a class="navbar-brand" href="#">WebSiteName</a>
+			     <a id="openbutton"  style="text-decoration:none" ><span  style="font-size:30px;cursor:pointer;margin: 10px 10px 10px 10px;">☰</span></a>
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
-			     	<ul class="nav navbar-nav">
-				      		<li id="openbutton" ><a style="padding-bottom: 0" ><span  style="font-size:30px;cursor:pointer" onclick="openNav()">☰</span></a></li>
+			     	<ul class="nav navbar-nav">	
 					        <li  class="active"><a href="#">Tab1</a></li>
 					        <li><a href="#">Tab2</a></li>
 					        <li><a href="#">Tab3</a></li> 
