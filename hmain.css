@@ -86,3 +86,39 @@ body{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/*chips*/
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #94bfa2;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user{
+    background-image: url("avatar.jpg");
+    background-position:169px -92px;
+    background-size: 230px;
+}
+
+iframe {
+    width: 94%;
+    height: 780px;
+    margin:20px !important;
+    border: 1px solid;
+}
+
+.form-group input{
+    width: auto !important;
+}
