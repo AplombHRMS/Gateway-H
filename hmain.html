@@ -14,8 +14,8 @@
          <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
          <script type="text/javascript" src="hmain.js"> </script>
         <link rel="icon" type="image/png" href="images/test7.gif">
-
-
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+	    <script type="text/javascript" src="charts.js"></script>
 </head>
 
 
@@ -59,7 +59,7 @@
 			    </div>
 			    <div class="collapse navbar-collapse" id="myNavbar">
 			     	<ul class="nav navbar-nav">	
-					        <li  class="active"><a href="#">Tab1</a></li>
+					        <li  class="active"><a href="hmain.html">Home</a></li>
 					        <li><a href="#">Tab2</a></li>
 					        <li><a href="#">Tab3</a></li> 
 					        <li><a href="#">Tab4</a></li> 
@@ -70,92 +70,43 @@
 			    </div>
 		</nav> 
 	</div>
-
-
 	<!--content should be written after this line-->
-	<p>ccccccccccccccccc</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-	<p>dddddddddddddddd</p>
-
-
-
-
+	<div style="margin-top:110px">
+		<table >
+			<tr>
+		        <td><div id="chart_div" style="border: 1px solid;width: 610px; height: 500px;margin:10px"></div></td>
+		        <td><div id="calendar_basic" style="border: 1px solid;width: 720px; height: 350px;margin:10px"></div></td>
+		        <td><div id="barchart_material" style="border: 1px solid;width: 500px; height: 500px;margin:10px"></div></td>
+      		</tr>
+    	</table>
+    	<table>
+    		<tr>
+      			<td><div id="columnchart" style="border: 1px solid;width: 610px; height: 500px;margin:10px"></div></td>
+      			<td><div id="piechart" style="border: 1px solid;width: 500px; height: 500px;margin:10px"></div></td>
+      			<td><div id="table_div" style="border: 1px solid;width: 720px; height: 350px;margin:10px"></div></td>
+      		</tr>
+    	</table>
+	</div>
+	
 <!-- footer -->
-<footer class="footer-distributed">
-
-			<div class="footer-left">
-
-				<a><img id="logo_top_left" src="images/hrlogo.png" class="img"></a>
-
-				<p class="footer-links">
-					<a href="#">Home</a>
-					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Pricing</a>
-					·
-					<a href="#">About</a>
-					·
-					<a href="#">Faq</a>
-					·
-					<a href="#">Contact</a>
-				</p>
-
-				<p class="footer-company-name">Company Name &copy; 2015</p>
-			</div>
+	<footer class="footer-distributed">
+		<div class="footer-left">
+			<a><img id="logo_top_left" src="images/hrlogo.png" class="img"></a>
+			<p class="footer-links">
+				<a href="#">Home</a>
+				·
+				<a href="#">Blog</a>
+				·
+				<a href="#">Pricing</a>
+				·
+				<a href="#">About</a>
+				·
+				<a href="#">Faq</a>
+				·
+				<a href="#">Contact</a>
+			</p>
+			<p class="footer-company-name">Company Name &copy; 2015</p>
+		</div>
 
 			<div class="footer-center">
 
@@ -194,7 +145,7 @@
 
 			</div>
 
-		</footer>
+	</footer>
 		
 </div>
 </body>
